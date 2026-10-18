@@ -1,0 +1,28 @@
+{
+  "name": "sm9-js",
+  "version": "0.1.0",
+  "description": "Pure JavaScript implementation of SM9 identity-based cryptography (GB/T 38635 / GM/T 0044)",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "scripts": {
+    "test": "node --test",
+    "benchmark": "node test/benchmark.js"
+  },
+  "keywords": [
+    "sm9",
+    "cryptography",
+    "pairing",
+    "bilinear-pairing",
+    "bn256",
+    "gm",
+    "identity-based-encryption"
+  ],
+  "license": "Apache-2.0"
+}
