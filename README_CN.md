@@ -6,7 +6,7 @@
 [![Zero-Dependency](https://img.shields.io/badge/dependencies-0-brightgreen.svg)]()
 [![AI-Assisted](https://img.shields.io/badge/AI--Assisted-Pair%20Programming-blueviolet.svg)](https://github.com/)
 
-[中文](./README.md) | [English](./README_EN.md)
+[中文](./README_CN.md) | [English](./README.md)
 
 纯 **JavaScript (ES2020 / 原生 `BigInt`)** 实现的国密 **SM9 标识密码算法 (Identity-based Cryptography)** 库。
 
